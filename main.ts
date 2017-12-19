@@ -23,10 +23,10 @@ namespace ledPkg{
         const output = (value * 10)
         
         switch (VR1) {
-            case ledPtrn.pattern1: value = 1;
-            case ledPtrn.pattern2: value = 2;
-            case ledPtrn.pattern3: value = 3;
-            default: value = 0;    
+            case ledPtrn.pattern1: return value/2
+            case ledPtrn.pattern2: return value/4
+            case ledPtrn.pattern3: return value/5
+            default: value    
         }
     }
 }
