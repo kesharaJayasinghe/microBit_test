@@ -1,0 +1,17 @@
+{
+    "name": "microBit_test",
+    "version": "0.0.1",
+    "description": "A MakeCode test package",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
