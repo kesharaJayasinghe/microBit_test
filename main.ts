@@ -18,7 +18,7 @@ namespace ledPkg{
      * @param VR2 variable2
      */
     //% blockId=LED_TEST block="ptrn VR1 %VR1|VR2 %VR2|VR3 %VR3"
-    export function ptrn(VR1: ledPtrn, VR2 = 10): number {
+    export function ptrn(VR1: ledPtrn, VR2 = 10): void {
         const value = 0
         const output = (value * 10)
         
